@@ -1,3 +1,3 @@
 # SRCASM-Conference
 
-A Webpage for Sri Ramakrishna College of Arts and Science 2021 Conference on CS
+A Webpage for Sri Ramakrishna College of Arts and Science 2021 Conference on [].
