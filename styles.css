@@ -1,1 +1,60 @@
+body{
+    margin:0;
+    padding: 0;
 
+}
+
+.header-bar{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: rgb(40, 40, 82); */
+}
+
+.title-bar{ 
+    background:linear-gradient(to right,#25274D,#29648A);
+    width:30%;
+    height:100%;
+    background-color: rgb(128, 57, 57);
+    float: left;
+}
+
+.site-icon{
+    width: 60px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+
+}
+
+.nav-bar{
+    background:linear-gradient(to left,#25274D,#29648A);
+    width: 70%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+
+
+
+.site-name{
+    color: #AAABB8;
+}
+
+
+
+
+.nav-tiles{
+    width: 12.5%;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+.running-text{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(59, 207, 233);
+}
