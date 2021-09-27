@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+  background: #1f2833;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #1f2833;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #C5C6C7;
+}
+
+body{
+    margin: 0px;
+    height: 1000vh;
+    background-color:#1f2833;
+    
+}
+
+.Header-container{
+    background-color: #1f2833;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    backdrop-filter: blur(80px);
+    opacity: 0.93;
+    z-index: 10;
+    font-family: 'Antonio', sans-serif;
+    margin: 0;
+}
+
+.Navbar-container{
+    width: 75%;
+    height: 100%;
+    margin: 0% 12.5%;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-tile{
+    color: #C5C6C7;
+    text-decoration: none;
+    text-align: center;
+    opacity: 1;
+}
+
+.vid{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+/* About college starts here */
+
+.Abt-clg-label{
+    width: 100%;
+    height: 10vh;
+    padding: 20px 0px 0px 0px;
+    background-color: #15171d;
+    color: #C5C6C7;
+    text-align: center;
+    margin: 0;
+    font-family: 'Antonio', sans-serif;
+    padding-top: 50px;
+}
+
+
+.About{
+    background-color: #C5C6C7;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #15171d; */
+    background-image:linear-gradient(45deg,#1f2833,#15171d);
+    /* background-image: url("/Resources/Images/Graduates.jpg"); */
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.About-clg-img-wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+.About-clg-img{
+    width: 330px;
+    height: 330px;
+    border: 2px solid #C5C6C7;
+    padding: 10px;   
+    border-radius: 15px;
+    
+}
+
+.About-clg-txt-wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    overflow-x: hidden;
+
+}
+
+.About-clg-txt{
+    /* width: 600px;
+    height: 500px; */
+    text-align: center;
+    /* margin-left: 150%; */
+    margin-right:20%;
+    font-size: 20px;
+    color: #ebf1f7;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 2px #15171d;
+    
+}
+
+.from-left{
+    transform: translateX(-50%);
+}
+
+.from-right{
+    transform: translateX(50%);
+}
+
+.from-left,.from-right{
+    transition: transform 600ms ease-in-out;
+}
+
+.from-left.appear,.from-right.appear{
+    transform: translateX(0);
+}
+
+/* About college ends here */
+
+/* About dept starts here */
+
+.Abt-dept-label{
+    width: 100%;
+    height: 10vh;
+    padding: 20px 0px 0px 0px;
+    background-color: #1f2833;
+    /* background:linear-gradient(45deg,#1f2833,15171d); */
+    color: #C5C6C7;
+    text-align: center;
+    margin: 0;
+    font-family: 'Antonio', sans-serif;
+    padding-top: 50px;
+    margin-bottom: -50px;
+}
+
+
+.About-dept{
+    background-color: #C5C6C7;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2833;
+    /* background-image: url("/Resources/Images/bag.jfif"); */
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.About-dept-img-wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+.About-dept-img{
+    width: 330px;
+    height: 330px;
+    border: 2px solid #C5C6C7;
+    padding: 10px;   
+    border-radius: 15px;
+    
+}
+
+.About-dept-txt-wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    overflow-x: hidden;
+
+}
+
+.About-dept-txt{
+    text-align: center;
+    margin-left:20%;
+    font-size: 20px;
+    color: #ebf1f7;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 2px #15171d;
+    
+}
+
+/* About dept ends here */
+
+.contact-msg{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #15171d;
+    color: antiquewhite;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+
+.Footer{
+    background-color: #15171d;
+    width: 100%;
+    height: auto;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.clg-logo{
+    margin: 0 0 30 30;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr,1fr;
+    justify-content: center;
+    align-items: center;
+    width:33%;
+}
+
+.logo{
+    height: 160px;
+    width: 200px;
+    margin: 0;
+}
+
+.clg-logo-img{
+    width:300px;
+    height: 80px;
+
+}
+
+.address{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.social{
+    display: grid;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr,1fr;
+    margin-bottom: 30px;
+
+}
+
+.useful-link-list{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+
+.sm-tile{
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px;
+}
+
+/* Call for papers starts here */
+
+.Call-For-Paper-Container{
+    width: 80vw;
+    margin: 10vw;
+    overflow-x: hidden;
+}
+
+.Call-for-papers{
+    margin: 10vw;
+    width: 100%;
+    display: flex;
+
+    animation: scrolling 40s linear infinite;
+    /* overflow-x: hidden;  */
+}
+
+.Call-for-papers:hover{
+    animation-play-state: paused;
+}
+
+.CFP{
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    background-color: #C5C6C7;
+    padding: 20px;
+    margin: 0;
+}
+
+.paper-tiles{
+    min-width: 200px;
+    width: 200px;
+    height: 250px;
+    background-color: black;
+    border: 2px solid wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgb(90, 78, 78);
+    margin: 20px 20px ;
+    flex-shrink: 1;
+}
+
+
+.paper-tiles img{
+    width: 130px;
+    height: 130px;
+}
+
+.paper-title{
+    
+    color: aliceblue;
+    font-family: 'Antonio', sans-serif;
+}
+
+@keyframes scrolling {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-8800px);
+    }
+}
+/* Call for paper ends here */
