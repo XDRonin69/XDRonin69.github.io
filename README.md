@@ -7,11 +7,11 @@ A Webpage for Sri Ramakrishna College of Arts and Science 2021 International Con
 
 Special Thanks to the following services for providing Open Source Media Assets.
 
-The Noun Project
+[The Noun Project](https://thenounproject.com/)
 
-FontAwesome
+[FontAwesome](https://fontawesome.com/)
 
-Google Fonts
+[Google Fonts](https://fonts.google.com/)
 
 ## Developers 
 
