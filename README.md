@@ -1,4 +1,4 @@
-![ICRCTC]()
+![ICRCTC](https://github.com/XDRonin69/SRCASM-Conference/blob/main/resources/images/assets/icrctc.png)
 # SRCASM-Conference
 
 A Webpage for Sri Ramakrishna College of Arts and Science 2021 International Conference on Research Practices of Cutting Edge Technologies in Computing.
