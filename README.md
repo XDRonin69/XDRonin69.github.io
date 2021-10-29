@@ -15,7 +15,7 @@ Special Thanks to the following services for providing Open Source Media Assets.
 
 ## Developers 
 
-This website was developed by a team of three for our College. 
+This website was developed by a team of three for our College.
 
 XDRonin69 - Web Developer
 
