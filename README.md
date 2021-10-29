@@ -17,8 +17,8 @@ Special Thanks to the following services for providing Open Source Media Assets.
 
 This website was developed by a team of three for our College.
 
-XDRonin69 - Web Developer
+[XDRonin69](https://linktr.ee/XDRonin) - Web Developer
 
-XKaliber - Designer
+[XKaliber](https://linktr.ee/thexkaliber) - Designer
 
-gitnubh - Tester
+[gitnubh](https://linktr.ee/Jeevan_Lowrence) - Tester
