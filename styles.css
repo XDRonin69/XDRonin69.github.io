@@ -308,7 +308,7 @@ body{
 
     
 .para-image1{
-    background-image: url("/resources/images/assets/srcas.jpg");
+    background-image: url("resources/images/assets/srcas.jpg");
     width: 100vw;
     height: 60vh;
     background-size: cover;
@@ -317,7 +317,7 @@ body{
   }
 
 .para-image2{
-  background-image: url("/resources/images/assets/cs-dept.jpg");
+  background-image: url("resources/images/assets/cs-dept.jpg");
   width: 100vw;
   height: 60vh;
   background-size: cover;
@@ -1196,7 +1196,7 @@ footer {
       display: none;
     }
     .About-the-conference{
-      background-image: url("/resources/images/assets/conference-background.png");
+      background-image: url("resources/images/assets/conference-background.png");
 
     }
     .slide-01{
@@ -1232,7 +1232,7 @@ footer {
       display: none;
     }
     .About-the-conference{
-      background-image: url("/resources/images/assets/conference-background.png");
+      background-image: url("resources/images/assets/conference-background.png");
 
     }
     .slide-01{
@@ -1268,7 +1268,7 @@ footer {
       display: none;
     }
     .About-the-conference{
-      background-image: url("/resources/images/assets/conference-background.png");
+      background-image: url("resources/images/assets/conference-background.png");
 
     }
 
