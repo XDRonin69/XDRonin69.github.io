@@ -216,3 +216,4 @@ document.querySelectorAll('*').forEach(el => {
       console.log('Found the worst element ever: ', el);
   }
 });
+console.log('tested all');
