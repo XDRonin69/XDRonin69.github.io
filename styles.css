@@ -38,6 +38,11 @@ body{
     background-color: #151729;
 }
 
+body,html{
+  max-width:100vw;
+  overflow-x:hidden;
+}
+
 /* Mobile navbar starts here */
 
 .Mobile-navbar-container{
