@@ -31,7 +31,7 @@ background-color: #C5C6C7;
 body{
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     /* height: 100vh; */
     overflow-x: hidden;
     background-color: #151729;
